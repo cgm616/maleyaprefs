@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = MaleyaPrefs;
+	cell = PSLinkCell;
+	detail = MaleyaPrefsListController;
+	icon = MaleyaPrefs.png;
+	isController = 1;
+	label = MaleyaPrefs;
+    };
+}
