@@ -3,8 +3,8 @@
 	bundle = MaleyaPrefs;
 	cell = PSLinkCell;
 	detail = MaleyaPrefsListController;
-	icon = MaleyaPrefs.png;
+	icon = maleyalogo.png;
 	isController = 1;
-	label = MaleyaPrefs;
+	label = Maleya;
     };
 }

@@ -1,9 +1,14 @@
+export TARGET := iphone:clang
+export ARCHS = armv7 arm64
+THEOS_BUILD_DIR = Packages
+PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
+
 include theos/makefiles/common.mk
 
 BUNDLE_NAME = MaleyaPrefs
 MaleyaPrefs_FILES = MaleyaPrefs.mm
 MaleyaPrefs_INSTALL_PATH = /Library/PreferenceBundles
-MaleyaPrefs_FRAMEWORKS = UIKit
+MaleyaPrefs_FRAMEWORKS = UIKit Social
 MaleyaPrefs_PRIVATE_FRAMEWORKS = Preferences
 
 include $(THEOS_MAKE_PATH)/bundle.mk

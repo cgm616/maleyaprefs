@@ -7,23 +7,85 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>MaleyaPrefs First Page</string>
+			<key>footerCellClass</key>
+			<string>MaleyaTitleCell</string>
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>me.cgm616.maleyaprefs</string>
-			<key>key</key>
-			<string>AwesomeSwitch1</string>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Awesome Switch 1</string>
+			<string>Created By:</string>
+			<key>footerText</key>
+			<string>Tap on my name to go to my twitter.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitterButton</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>axinen.png</string>
+			<key>label</key>
+			<string>@Axinen</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Change Log</string>
+			<key>footerText</key>
+			<string>What's changed in the latest versions!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>changesButton</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>changes.png</string>
+			<key>label</key>
+			<string>Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Prefs Created by:</string>
+			<key>footerText</key>
+			<string>Check out VolumeBar!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitterButton2</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>cgm616.png</string>
+			<key>label</key>
+			<string>@cgm616</string>
 		</dict>
 	</array>
 	<key>title</key>
-	<string>MaleyaPrefs</string>
+	<string>Maleya</string>
 </dict>
 </plist>
