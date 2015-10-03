@@ -115,6 +115,11 @@
   return self;
 }
 
+-(CGFloat)preferredHeightForWidth:(CGFloat)width {
+	CGSize size = [[UIScreen mainScreen] bounds].size;
+	return (size.width * 1080) / 1920;
+}
+
 @end
 
 // vim:ft=objc
