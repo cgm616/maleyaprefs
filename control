@@ -1,8 +1,8 @@
 Package: me.cgm616.maleyaprefs
 Name: MaleyaPrefs
-Version: 0.0.2
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Changes the ugly volume HUD to a nice bar.
+Description: Prefs packages for Axinen's Maleya theme.
 Maintainer: cgm616 <cgm616+cydia@gmail.com>
 Author: cgm616 <cgm616+cydia@gmail.com>
 Section: Themes
