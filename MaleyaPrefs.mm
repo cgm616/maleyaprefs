@@ -40,7 +40,7 @@
 
 -(void)composeTweet:(id)sender {
 	SLComposeViewController * composeController = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-	[composeController setInitialText:@"I love Maleya, an awesome theme by @Axinen. Check it out! https://www.dropbox.com/s/j3g5dckd72v83ki/Header.png?dl=0"];
+	[composeController setInitialText:@"I love Maleya, an awesome theme by @Axinen. Check it out!"]; 
 	[self.parentController presentViewController:composeController animated:YES completion:nil];
 }
 
