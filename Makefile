@@ -1,9 +1,9 @@
-export TARGET := iphone:clang
+export TARGET := iphone:clang:8.1
 export ARCHS = armv7 arm64
 THEOS_BUILD_DIR = Packages
 PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = MaleyaPrefs
 MaleyaPrefs_FILES = MaleyaPrefs.mm
